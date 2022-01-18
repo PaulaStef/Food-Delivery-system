@@ -1,0 +1,5 @@
+Order number : 3
+Client: client1
+ Item : Fresh Corn Tortillas    Price : 79.0
+ Item : Fresh Corn Tortillas    Price : 79.0
+ Total Price : 158.0

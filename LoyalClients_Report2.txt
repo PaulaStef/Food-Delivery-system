@@ -1,0 +1,2 @@
+Clients that ordered more than 2 times the value of the order is higher than50.0:
+Client: client1

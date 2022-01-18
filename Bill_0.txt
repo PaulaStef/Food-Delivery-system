@@ -1,0 +1,6 @@
+Order number : 0
+Client: client1
+ Item : Spiced Apple Cider with Rum Whipped Cream    Price : 84.0
+ Item : Spiced Apple Cider with Rum Whipped Cream    Price : 84.0
+ Item : Spiced Apple Cider with Rum Whipped Cream    Price : 84.0
+ Total Price : 252.0

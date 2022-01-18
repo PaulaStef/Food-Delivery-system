@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1142.0" y="4048.0">com</node>
+    <node x="0.0" y="4048.0">netscape</node>
+    <node x="337.0462684871509" y="309.0">business.BaseProduct</node>
+    <node x="1183.3360661268548" y="3140.0">business.DeliveryService</node>
+    <node x="3766.2423161268543" y="0.0">toolbarButtonGraphics</node>
+    <node x="995.2735661268546" y="992.5">presentation.ClientController</node>
+    <node x="1472.0" y="4048.0">sun</node>
+    <node x="250.73928571428564" y="1942.0">presentation.AdministratorGraphicalUserInterface</node>
+    <node x="1150.8017857142856" y="2162.5">presentation.StartPage.Control</node>
+    <node x="649.2735661268546" y="1549.5">presentation.EmployeeController</node>
+    <node x="4075.2423161268543" y="0.0">groovyjarjarasm</node>
+    <node x="1750.168238074582" y="679.0">business.Order</node>
+    <node x="969.0" y="4048.0">java</node>
+    <node x="1718.4736382508452" y="2129.5">business.User</node>
+    <node x="788.0" y="4048.0">javax</node>
+    <node x="95.61428571428587" y="926.0">presentation.ReportPage</node>
+    <node x="913.0235661268545" y="2605.0">presentation.StartPage</node>
+    <node x="128.27356612685458" y="1549.5">presentation.AdministratorController</node>
+    <node x="674.7735661268546" y="2129.0">presentation.EmployeeGraphicalUserInterface</node>
+    <node x="35.5" y="701.5">presentation.ReportPage.Control</node>
+    <node x="2809.2423161268543" y="5.701171875">groovyjarjarpicocli</node>
+    <node x="1444.011988074582" y="0.0">business.MenuItem</node>
+    <node x="1574.4736382508452" y="2749.5">data.Serializator</node>
+    <node x="1319.8798882508452" y="679.5">business.CompositeProduct</node>
+    <node x="410.0" y="4048.0">images</node>
+    <node x="1307.0" y="4048.0">org</node>
+    <node x="1423.3360661268548" y="3973.0">start</node>
+    <node x="1637.0" y="4048.0">jdk</node>
+    <node x="205.0" y="4048.0">META-INF</node>
+    <node x="2381.7423161268543" y="1015.5">business.IDeliveryServiceProcessing</node>
+    <node x="599.0" y="4048.0">groovy</node>
+    <node x="1737.0548161268546" y="1550.0">business.UserRole</node>
+    <node x="1020.2735661268546" y="1351.0">presentation.ClientGraphicalUserInterface</node>
+    <node x="3449.2423161268543" y="0.0">groovyjarjarcommonscli</node>
+    <node x="1972.7423161268546" y="1003.5">data.TxtWriter</node>
+    <node x="3142.2423161268543" y="5.701171875">groovyjarjarantlr</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="presentation.ClientGraphicalUserInterface" target="presentation.StartPage">
+      <point x="-53.0" y="270.5" />
+      <point x="1179.2735661268546" y="1922.0" />
+      <point x="1140.3017857142856" y="1922.0" />
+      <point x="1140.3017857142856" y="2535.0" />
+      <point x="1098.8092804125686" y="2535.0" />
+      <point x="32.78571428571422" y="-182.5" />
+    </edge>
+    <edge source="business.CompositeProduct" target="business.MenuItem">
+      <point x="118.875" y="-83.0" />
+      <point x="1597.2548882508452" y="659.0" />
+      <point x="1540.511988074582" y="659.0" />
+      <point x="1540.511988074582" y="289.0" />
+      <point x="1542.6658342284281" y="289.0" />
+      <point x="13.153846153846189" y="104.5" />
+    </edge>
+    <edge source="data.Serializator" target="business.User">
+      <point x="76.33333333333337" y="-38.0" />
+      <point x="1765.3069715841784" y="2585.0" />
+      <point x="1743.9736382508452" y="2585.0" />
+      <point x="-76.5" y="94.0" />
+    </edge>
+    <edge source="presentation.EmployeeController" target="business.MenuItem">
+      <point x="-84.75" y="-72.0" />
+      <point x="734.0235661268546" y="1331.0" />
+      <point x="811.511988074582" y="1331.0" />
+      <point x="811.511988074582" y="259.0" />
+      <point x="1490.0504496130434" y="259.0" />
+      <point x="-39.46153846153845" y="104.5" />
+    </edge>
+    <edge source="presentation.StartPage" target="business.DeliveryService">
+      <point x="114.75" y="182.5" />
+      <point x="1180.7735661268543" y="3020.0" />
+      <point x="1379.3360661268546" y="3020.0" />
+      <point x="-112.00000000000023" y="-391.5" />
+    </edge>
+    <edge source="business.DeliveryService" target="business.UserRole">
+      <point x="186.66666666666674" y="-391.5" />
+      <point x="1678.0027327935215" y="3060.0" />
+      <point x="1935.1611382508452" y="3060.0" />
+      <point x="1935.1611382508452" y="1922.0" />
+      <point x="1891.9298161268546" y="1922.0" />
+      <point x="66.375" y="71.5" />
+    </edge>
+    <edge source="business.BaseProduct" target="business.MenuItem">
+      <point x="0.0" y="-160.0" />
+      <point x="545.0462684871509" y="249.0" />
+      <point x="1476.8966034591972" y="249.0" />
+      <point x="-52.61538461538464" y="104.5" />
+    </edge>
+    <edge source="business.DeliveryService" target="data.TxtWriter">
+      <point x="242.66666666666674" y="-391.5" />
+      <point x="1734.0027327935215" y="3090.0" />
+      <point x="2166.7423161268543" y="3090.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="presentation.ClientController" target="business.CompositeProduct">
+      <point x="59.25" y="-116.0" />
+      <point x="1291.5235661268546" y="866.0" />
+      <point x="1372.7132215841784" y="866.0" />
+      <point x="-105.66666666666663" y="83.0" />
+    </edge>
+    <edge source="data.TxtWriter" target="business.MenuItem">
+      <point x="97.0" y="-105.0" />
+      <point x="2263.7423161268543" y="279.0" />
+      <point x="1568.9735265361205" y="279.0" />
+      <point x="39.46153846153845" y="104.5" />
+    </edge>
+    <edge source="business.CompositeProduct" target="business.BaseProduct">
+      <point x="-118.875" y="-83.0" />
+      <point x="1359.5048882508452" y="649.0" />
+      <point x="711.4462684871507" y="649.0" />
+      <point x="166.39999999999986" y="160.0" />
+    </edge>
+    <edge source="presentation.StartPage.Control" target="presentation.StartPage">
+      <point x="-33.85714285714289" y="61.0" />
+      <point x="1235.4446428571428" y="2565.0" />
+      <point x="1164.3807089839975" y="2565.0" />
+      <point x="98.35714285714289" y="-182.5" />
+    </edge>
+    <edge source="presentation.EmployeeGraphicalUserInterface" target="presentation.EmployeeController">
+      <point x="-108.0" y="-94.5" />
+      <point x="710.7735661268546" y="1922.0" />
+      <point x="691.6485661268546" y="1922.0" />
+      <point x="-127.125" y="72.0" />
+    </edge>
+    <edge source="data.Serializator" target="business.Order">
+      <point x="0.0" y="-38.0" />
+      <point x="1688.9736382508452" y="906.0" />
+      <point x="1811.855738074582" y="906.0" />
+      <point x="-8.8125" y="83.5" />
+    </edge>
+    <edge source="presentation.ReportPage.Control" target="business.DeliveryService">
+      <point x="-106.28571428571422" y="61.0" />
+      <point x="53.21428571428578" y="906.0" />
+      <point x="59.11198807458209" y="906.0" />
+      <point x="59.11198807458209" y="3110.0" />
+      <point x="1211.3360661268546" y="3110.0" />
+      <point x="-280.0000000000002" y="-391.5" />
+    </edge>
+    <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
+      <point x="77.33333333333331" y="15.0" />
+      <point x="3335.575649460188" y="75.701171875" />
+      <point x="3102.2423161268543" y="75.701171875" />
+      <point x="3102.2423161268543" y="10.701171875" />
+      <point x="-116.0" y="-10.0" />
+    </edge>
+    <edge source="presentation.ClientController" target="business.Order">
+      <point x="177.75" y="-116.0" />
+      <point x="1410.0235661268546" y="886.0" />
+      <point x="1776.605738074582" y="886.0" />
+      <point x="-44.0625" y="83.5" />
+    </edge>
+    <edge source="presentation.AdministratorGraphicalUserInterface" target="business.DeliveryService">
+      <point x="-124.0" y="281.5" />
+      <point x="312.73928571428564" y="2585.0" />
+      <point x="278.5235661268546" y="2585.0" />
+      <point x="278.5235661268546" y="3060.0" />
+      <point x="1304.6693994601878" y="3060.0" />
+      <point x="-186.66666666666697" y="-391.5" />
+    </edge>
+    <edge source="presentation.StartPage" target="presentation.EmployeeGraphicalUserInterface">
+      <point x="-98.35714285714289" y="-182.5" />
+      <point x="967.6664232697116" y="2565.0" />
+      <point x="722.7735661268546" y="2565.0" />
+      <point x="-96.0" y="94.5" />
+    </edge>
+    <edge source="data.Serializator" target="business.MenuItem">
+      <point x="-76.33333333333331" y="-38.0" />
+      <point x="1612.640304917512" y="2585.0" />
+      <point x="1647.3798882508452" y="2585.0" />
+      <point x="1647.3798882508452" y="289.0" />
+      <point x="1555.8196803822743" y="289.0" />
+      <point x="26.307692307692264" y="104.5" />
+    </edge>
+    <edge source="presentation.EmployeeController" target="presentation.EmployeeGraphicalUserInterface">
+      <point x="42.375" y="72.0" />
+      <point x="861.1485661268546" y="1922.0" />
+      <point x="854.7735661268546" y="1922.0" />
+      <point x="36.0" y="-94.5" />
+    </edge>
+    <edge source="groovyjarjarpicocli" target="groovyjarjarpicocli">
+      <point x="82.66666666666669" y="15.0" />
+      <point x="3015.908982793521" y="75.701171875" />
+      <point x="2769.2423161268543" y="75.701171875" />
+      <point x="2769.2423161268543" y="10.701171875" />
+      <point x="-124.0" y="-10.0" />
+    </edge>
+    <edge source="presentation.StartPage" target="presentation.StartPage.Control">
+      <point x="54.64285714285711" y="-182.5" />
+      <point x="1120.6664232697117" y="2545.0" />
+      <point x="1167.7303571428572" y="2545.0" />
+      <point x="-101.57142857142844" y="61.0" />
+    </edge>
+    <edge source="presentation.StartPage" target="presentation.ClientGraphicalUserInterface">
+      <point x="10.928571428571558" y="-182.5" />
+      <point x="1076.952137555426" y="2525.0" />
+      <point x="1097.7735661268546" y="2525.0" />
+      <point x="1097.7735661268546" y="1922.0" />
+      <point x="1073.2735661268546" y="1922.0" />
+      <point x="-159.0" y="270.5" />
+    </edge>
+    <edge source="presentation.ClientController" target="business.MenuItem">
+      <point x="-59.25" y="-116.0" />
+      <point x="1173.0235661268546" y="866.0" />
+      <point x="1158.3798882508452" y="866.0" />
+      <point x="1158.3798882508452" y="269.0" />
+      <point x="1503.2042957668896" y="269.0" />
+      <point x="-26.307692307692264" y="104.5" />
+    </edge>
+    <edge source="business.User" target="business.UserRole">
+      <point x="-51.0" y="-94.0" />
+      <point x="1769.4736382508452" y="1922.0" />
+      <point x="1803.4298161268546" y="1922.0" />
+      <point x="-22.125" y="71.5" />
+    </edge>
+    <edge source="business.IDeliveryServiceProcessing" target="business.Order">
+      <point x="-83.0" y="-93.0" />
+      <point x="2464.7423161268543" y="876.0" />
+      <point x="1882.355738074582" y="876.0" />
+      <point x="61.6875" y="83.5" />
+    </edge>
+    <edge source="business.DeliveryService" target="business.BaseProduct">
+      <point x="-298.66666666666686" y="-391.5" />
+      <point x="1192.6693994601878" y="3120.0" />
+      <point x="25.0" y="3120.0" />
+      <point x="25.0" y="659.0" />
+      <point x="378.6462684871508" y="659.0" />
+      <point x="-166.4000000000001" y="160.0" />
+    </edge>
+    <edge source="presentation.StartPage.Control" target="presentation.ClientGraphicalUserInterface">
+      <point x="-59.25" y="-61.0" />
+      <point x="1210.0517857142856" y="1922.0" />
+      <point x="1285.2735661268546" y="1922.0" />
+      <point x="53.0" y="270.5" />
+    </edge>
+    <edge source="presentation.ClientController" target="presentation.StartPage">
+      <point x="-207.375" y="116.0" />
+      <point x="1024.8985661268546" y="1311.0" />
+      <point x="998.7735661268546" y="1311.0" />
+      <point x="998.7735661268546" y="2535.0" />
+      <point x="1033.2378518411401" y="2535.0" />
+      <point x="-32.78571428571422" y="-182.5" />
+    </edge>
+    <edge source="presentation.AdministratorController" target="business.MenuItem">
+      <point x="-38.75" y="-72.0" />
+      <point x="322.0235661268546" y="1331.0" />
+      <point x="315.5462684871509" y="1331.0" />
+      <point x="315.5462684871509" y="229.0" />
+      <point x="1450.588911151505" y="229.0" />
+      <point x="-78.9230769230769" y="104.5" />
+    </edge>
+    <edge source="presentation.StartPage.Control" target="business.UserRole">
+      <point x="59.25" y="-61.0" />
+      <point x="1328.5517857142856" y="1922.0" />
+      <point x="1759.1798161268546" y="1922.0" />
+      <point x="-66.375" y="71.5" />
+    </edge>
+    <edge source="business.IDeliveryServiceProcessing" target="business.MenuItem">
+      <point x="83.0" y="-93.0" />
+      <point x="2630.7423161268543" y="259.0" />
+      <point x="1595.2812188438127" y="259.0" />
+      <point x="65.76923076923072" y="104.5" />
+    </edge>
+    <edge source="presentation.AdministratorController" target="presentation.AdministratorGraphicalUserInterface">
+      <point x="116.25" y="72.0" />
+      <point x="477.0235661268546" y="1922.0" />
+      <point x="483.23928571428564" y="1922.0" />
+      <point x="46.5" y="-281.5" />
+    </edge>
+    <edge source="presentation.AdministratorGraphicalUserInterface" target="presentation.AdministratorController">
+      <point x="-139.5" y="-281.5" />
+      <point x="297.23928571428564" y="1922.0" />
+      <point x="322.0235661268546" y="1922.0" />
+      <point x="-38.75" y="72.0" />
+    </edge>
+    <edge source="business.DeliveryService" target="business.User">
+      <point x="149.33333333333326" y="-391.5" />
+      <point x="1640.669399460188" y="3040.0" />
+      <point x="1842.4298161268546" y="3040.0" />
+      <point x="1842.4298161268546" y="2585.0" />
+      <point x="1845.9736382508452" y="2585.0" />
+      <point x="25.5" y="94.0" />
+    </edge>
+    <edge source="presentation.EmployeeController" target="business.Order">
+      <point x="84.75" y="-72.0" />
+      <point x="903.5235661268546" y="1331.0" />
+      <point x="822.511988074582" y="1331.0" />
+      <point x="822.511988074582" y="876.0" />
+      <point x="1758.980738074582" y="876.0" />
+      <point x="-61.6875" y="83.5" />
+    </edge>
+    <edge source="presentation.ReportPage.Control" target="presentation.ReportPage">
+      <point x="106.28571428571422" y="61.0" />
+      <point x="265.7857142857142" y="906.0" />
+      <point x="279.2142857142858" y="906.0" />
+      <point x="81.59999999999991" y="-182.5" />
+    </edge>
+    <edge source="business.DeliveryService" target="presentation.StartPage">
+      <point x="-168.00000000000034" y="-391.5" />
+      <point x="1323.3360661268543" y="3050.0" />
+      <point x="951.2735661268545" y="3050.0" />
+      <point x="-114.75" y="182.5" />
+    </edge>
+    <edge source="presentation.ClientGraphicalUserInterface" target="presentation.ClientController">
+      <point x="-159.0" y="-270.5" />
+      <point x="1073.2735661268546" y="1331.0" />
+      <point x="1143.3985661268546" y="1331.0" />
+      <point x="-88.875" y="116.0" />
+    </edge>
+    <edge source="data.TxtWriter" target="business.Order">
+      <point x="-97.0" y="-105.0" />
+      <point x="2069.7423161268543" y="886.0" />
+      <point x="1864.730738074582" y="886.0" />
+      <point x="44.0625" y="83.5" />
+    </edge>
+    <edge source="start" target="business.DeliveryService">
+      <point x="-34.0" y="-15.0" />
+      <point x="1457.3360661268548" y="3948.0" />
+      <point x="1337.3360661268548" y="3948.0" />
+      <point x="-154.0" y="391.5" />
+    </edge>
+    <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli">
+      <point x="68.0" y="15.0" />
+      <point x="3653.2423161268543" y="60.0" />
+      <point x="3419.2423161268543" y="60.0" />
+      <point x="3419.2423161268543" y="7.5" />
+      <point x="-136.0" y="-7.5" />
+    </edge>
+    <edge source="presentation.StartPage.Control" target="business.DeliveryService">
+      <point x="67.71428571428578" y="61.0" />
+      <point x="1337.0160714285714" y="2575.0" />
+      <point x="1316.9164232697117" y="2575.0" />
+      <point x="1316.9164232697117" y="3010.0" />
+      <point x="1398.0027327935213" y="3010.0" />
+      <point x="-93.33333333333348" y="-391.5" />
+    </edge>
+    <edge source="presentation.StartPage" target="presentation.AdministratorGraphicalUserInterface">
+      <point x="-142.07142857142844" y="-182.5" />
+      <point x="923.952137555426" y="2585.0" />
+      <point x="436.73928571428564" y="2585.0" />
+      <point x="0.0" y="281.5" />
+    </edge>
+    <edge source="presentation.ClientController" target="presentation.ClientGraphicalUserInterface">
+      <point x="29.625" y="116.0" />
+      <point x="1261.8985661268546" y="1331.0" />
+      <point x="1285.2735661268546" y="1331.0" />
+      <point x="53.0" y="-270.5" />
+    </edge>
+    <edge source="business.DeliveryService" target="business.Order">
+      <point x="224.0" y="-391.5" />
+      <point x="1715.3360661268548" y="3080.0" />
+      <point x="1962.2423161268546" y="3080.0" />
+      <point x="1962.2423161268546" y="896.0" />
+      <point x="1847.105738074582" y="896.0" />
+      <point x="26.4375" y="83.5" />
+    </edge>
+    <edge source="business.DeliveryService" target="business.IDeliveryServiceProcessing">
+      <point x="280.0" y="-391.5" />
+      <point x="1771.3360661268548" y="3110.0" />
+      <point x="2547.7423161268543" y="3110.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="presentation.AdministratorController" target="business.BaseProduct">
+      <point x="193.75" y="-72.0" />
+      <point x="554.5235661268546" y="1331.0" />
+      <point x="545.011988074582" y="1331.0" />
+      <point x="0.0" y="160.0" />
+    </edge>
+    <edge source="presentation.AdministratorController" target="business.DeliveryService">
+      <point x="-193.75" y="72.0" />
+      <point x="167.02356612685458" y="1922.0" />
+      <point x="186.06738825084517" y="1922.0" />
+      <point x="186.06738825084517" y="3080.0" />
+      <point x="1267.3360661268543" y="3080.0" />
+      <point x="-224.00000000000034" y="-391.5" />
+    </edge>
+    <edge source="presentation.ReportPage" target="business.DeliveryService">
+      <point x="-68.0" y="182.5" />
+      <point x="129.61428571428587" y="1331.0" />
+      <point x="101.06738825084517" y="1331.0" />
+      <point x="101.06738825084517" y="3090.0" />
+      <point x="1248.6693994601878" y="3090.0" />
+      <point x="-242.66666666666697" y="-391.5" />
+    </edge>
+    <edge source="business.DeliveryService" target="business.CompositeProduct">
+      <point x="18.666666666666515" y="-391.5" />
+      <point x="1510.0027327935213" y="3120.0" />
+      <point x="1505.8798882508452" y="3120.0" />
+      <point x="1505.8798882508452" y="866.0" />
+      <point x="1584.046554917512" y="866.0" />
+      <point x="105.66666666666674" y="83.0" />
+    </edge>
+    <edge source="data.Serializator" target="business.DeliveryService">
+      <point x="28.625" y="38.0" />
+      <point x="1717.5986382508452" y="3010.0" />
+      <point x="1584.669399460188" y="3010.0" />
+      <point x="93.33333333333326" y="-391.5" />
+    </edge>
+    <edge source="presentation.ReportPage" target="presentation.ReportPage.Control">
+      <point x="-81.59999999999991" y="-182.5" />
+      <point x="116.01428571428596" y="906.0" />
+      <point x="124.07142857142844" y="906.0" />
+      <point x="-35.42857142857156" y="61.0" />
+    </edge>
+    <edge source="presentation.ClientController" target="business.BaseProduct">
+      <point x="-177.75" y="-116.0" />
+      <point x="1054.5235661268546" y="866.0" />
+      <point x="1106.511988074582" y="866.0" />
+      <point x="1106.511988074582" y="659.0" />
+      <point x="628.2462684871507" y="659.0" />
+      <point x="83.19999999999982" y="160.0" />
+    </edge>
+    <edge source="presentation.ClientGraphicalUserInterface" target="business.DeliveryService">
+      <point x="159.0" y="270.5" />
+      <point x="1391.2735661268546" y="1912.0" />
+      <point x="1398.3017857142856" y="1912.0" />
+      <point x="1398.3017857142856" y="2990.0" />
+      <point x="1435.3360661268546" y="2990.0" />
+      <point x="-56.00000000000023" y="-391.5" />
+    </edge>
+    <edge source="business.DeliveryService" target="data.Serializator">
+      <point x="56.0" y="-391.5" />
+      <point x="1547.3360661268548" y="2990.0" />
+      <point x="1603.0986382508452" y="2990.0" />
+      <point x="-85.875" y="38.0" />
+    </edge>
+    <edge source="presentation.ClientController" target="business.DeliveryService">
+      <point x="207.375" y="116.0" />
+      <point x="1439.6485661268546" y="1311.0" />
+      <point x="1467.3798882508452" y="1311.0" />
+      <point x="1467.3798882508452" y="3120.0" />
+      <point x="1472.6693994601878" y="3120.0" />
+      <point x="-18.66666666666697" y="-391.5" />
+    </edge>
+    <edge source="business.DeliveryService" target="business.MenuItem">
+      <point x="298.66666666666674" y="-391.5" />
+      <point x="1790.0027327935215" y="3120.0" />
+      <point x="2724.2423161268543" y="3120.0" />
+      <point x="2724.2423161268543" y="249.0" />
+      <point x="1608.4350649976589" y="249.0" />
+      <point x="78.9230769230769" y="104.5" />
+    </edge>
+    <edge source="presentation.AdministratorController" target="presentation.ReportPage">
+      <point x="-193.75" y="-72.0" />
+      <point x="167.02356612685458" y="1331.0" />
+      <point x="197.61428571428587" y="1331.0" />
+      <point x="0.0" y="182.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3016659162539397" x="1089.5" y="3054.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
